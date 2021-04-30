@@ -1,0 +1,140 @@
+body {
+    font-family: spartan;
+}
+
+/* main container */
+
+#full-page {
+    margin: 6% 10% 4% 10%;
+
+}
+
+#upper-side {
+    height: 200px;
+}
+
+#main-container {
+    float: left;
+    width: 40%;
+    min-height: 100%;
+}
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-family: spartan;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 3%;
+}
+
+.text {
+    color: hsl(300, 43%, 22%);
+    font-family: spartan;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#reviews {
+    float: right;
+    width: 60%;
+    min-height: 100%;
+}
+
+#reviews div {
+    width: 80%;
+    height: 20px;
+    line-height: 20px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 3%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
+}
+
+#reviews div:nth-child(2) {
+    position: relative;
+    left: 40px;
+}
+
+#reviews div:nth-child(3) {
+    position: relative;
+    left: 80px;
+}
+
+#reviews span {
+    margin-left: 5%;
+}
+
+#reviews svg {
+    padding: 0.5%;
+}
+
+.clr {
+    clear: both;
+}
+
+#recommendations {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    padding: 0.5%;
+    font-size: 12px;
+    border-radius: 5%;
+    
+}
+
+
+.card:nth-child(2){
+    position: relative;
+    top: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+
+}
+
+.card:nth-child(3){
+    position: relative;
+    top: 40px;
+
+}
+
+.inner-card {
+    padding: 30px 25px 30px 25px;
+     
+}
+
+.upper-card {
+margin-bottom: 60px;
+margin-right: 60px;
+
+
+
+}
+.reco-images {
+    border-radius: 50%;
+    height: 40px;
+    float: left;
+}
+
+
+ .name-container {
+float: right;
+margin-right: 50px;
+margin-top: 5px;
+ }
+
+.verified {
+    color: hsl(333, 80%, 67%);
+}
+
+.names{
+    font-weight: bold;
+}
