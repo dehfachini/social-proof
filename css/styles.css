@@ -138,3 +138,16 @@ margin-top: 5px;
 .names{
     font-weight: bold;
 }
+
+.pattern-top {
+    position: fixed;
+    left: -100px;
+    top: -20px;
+    z-index: -1;
+}
+.pattern-bottom {
+    position: fixed;
+    left: 300px;
+    top: 40px;
+    z-index: -1;
+}
