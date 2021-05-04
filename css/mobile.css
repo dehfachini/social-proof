@@ -1,0 +1,70 @@
+
+#full-page {
+    margin: 3% 3% 3% 3%;
+    height: 100%;
+    width: 100%;
+
+}
+
+#upper-side {
+    height: 100%;
+    text-align: center;
+ 
+
+}
+
+
+#main-container {
+    float: none;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#reviews {
+    float: none;
+    width: 100%;
+}
+
+#reviews div {
+    height: 50px;
+    margin-bottom: 15px;
+    min-width: 80vw;
+}
+   
+
+
+#reviews div:nth-child(2) {
+    position: relative;
+    left: 0;
+}
+
+#reviews div:nth-child(3) {
+    position: relative;
+    left: 0;
+}
+
+#reviews span {
+    margin-left: 0;
+    display: block;
+    margin-top: 5px;
+}
+
+#reviews svg {
+    padding: 0;
+}
+
+#recommendations {
+    width: 90vw;
+}
+
+.card {
+    min-width: 80vw;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: auto;
+}
+
+.card:nth-child(2) {
+    margin: auto;
+}
